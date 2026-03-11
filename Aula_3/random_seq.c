@@ -16,11 +16,11 @@
 // ------ [0] BIBLIOTECAS ------ //
     
     #include <stdio.h>  // para usar printf
-    #include <stdlib.h> // para usar função rand()
+    #include <stdlib.h> // para usar função rand() e atoi
 
 
 
-// ------ [0] Leitura de N argumentos (argv) e array de strings em arv[] ------ //
+// ------ [0] Leitura de N argumentos (argv) e array de strings em argv[] ------ //
 
     int main(int argc, char* argv[]) {
 

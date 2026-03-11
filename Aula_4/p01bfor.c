@@ -14,21 +14,3 @@
   $ 
 
  */
-
-#include <stdio.h>
-#include <stdlib.h>
-
-int main(int argc, char *argv[])
-{
-    int N = atoi(argv[1]);
-    int x = 0;
-
-    while (N > 0) {
-        scanf("%d", &x);
-        printf("%d ", x * x);
-        N--;
-    }
-    printf("\n");
-
-    return 0;
-}

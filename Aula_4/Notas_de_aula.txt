@@ -1,0 +1,23 @@
+Anotações da aula 4 de MAC2166
+
+    * Laço for:
+        for (int i = 0; i < x; i ++) {
+            corpo do laço for
+        }
+
+    * double:
+        %d para int;
+        $lg para double
+        atof() em vez de atoi()
+
+    * rand e srand
+        srand(seed);
+        rand()
+
+    * Redirecionamento:
+        - Escreve o resultado no arquivo:                ./a.out > arquivo.txt
+        - Utiliza o que está no arquivo como entrada:    ./a.out < arquivo.txt 
+
+    * Piping:
+        $ gcc nome_programa.c -o nome_programa
+        $ ./nome_programa
