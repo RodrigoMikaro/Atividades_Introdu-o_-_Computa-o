@@ -1,0 +1,25 @@
+Anotações da aula 5 de MAC2166
+
+    * Cálculo de média 
+    * EOF (End Of File)
+
+    * Utilização de rand:   
+        - rand();
+        - Fato: valor devolvido por rand() pertence a 0, 1, ... , 2^31 - 1
+                                                                     ^
+                                                                     |
+                                                                  RAND_MAX
+        - IMPORTANTE: 
+            - Algoritmo com operação de módulo é pior que o de regra de três, mas ambos contêm problemas
+            - Algoritmo utilizando regra de 3 tem problema quando M é muito grande em relação a RAND_MAX
+    
+
+    * Encontrando MDC de dois números:
+        - Algoritmo de Euclides
+        mdc(24, 15) = mdc(15, 9) = mdc(9, 6) = 
+
+    * Exercícios:
+        (1) Sejam a, b pertencentes aos Naturais, b != 0, prove que:
+            mdc(a, b) = mdc(b, a % b)
+
+        (2) Escreva um programa em C para calcular mdc de dois números.

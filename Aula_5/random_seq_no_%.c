@@ -13,6 +13,16 @@
 
 // --------------------------------------------------- RESOLUÇÃO --------------------------------------------------- //
 
+
+// Resolução sem utilização de % (módulo), mas sim com regra de três
+
+
+// 0, 1, ... , x, x + 1, ... , RAND_MAX, RAND_MAX +1
+// 0, ... , x', x' + 1, ..., M - 1, M
+
+
+
+
 // ------ [0] BIBLIOTECAS ------ //
     
     #include <stdio.h>  // para usar printf
@@ -31,7 +41,8 @@
         srand(seed);
 
         for (int i = 0; i < N; i++) {
-            int random_number = (rand() % M);
+            double x = (rand() % (RAND_MAX + 1.0));
+            random_number = 
             printf("%d ", random_number);
         }
 
