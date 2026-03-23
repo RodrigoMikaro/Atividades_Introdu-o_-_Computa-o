@@ -7,7 +7,6 @@ int main() {
     int a = 0;
     int b = 0;
     int c = 0;
-    int d = 0;
 
     // Exemplo: 25 10
     printf("Faremos o MDC dos números:");

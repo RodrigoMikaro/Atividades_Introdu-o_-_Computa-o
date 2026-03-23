@@ -1,0 +1,15 @@
+Anotações da aula 6 de MAC2166
+
+    * Continuação do algoritmo de Euclides
+    * Primalidade de números
+    * Probabilidade de dois números aleatórios serem coprimos:
+        - p12_deluxe.c
+        - 6/(pi^2)
+    * AND:
+        &&
+    * OR:
+        ||
+    
+    
+    
+    * Obsidian Holz
