@@ -1,0 +1,13 @@
+
+    * WSL:
+        Windows Subsystem for Linux
+    
+    * Na prova:
+        - Terá tipo de questão chamada "simulação"
+    
+    * Nos laços, serão úteis:
+        - break 
+        - continue (passa para a próxima iteração) do loop
+
+    * Algoritmo de fatoração:
+    

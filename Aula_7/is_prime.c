@@ -21,6 +21,9 @@ int main(int argc, char *argv[]) {
 
     int d = 2;
 
+    if (N <= 1) {
+// colocar caso em que é menos que 1 pois não é primo
+    }
     while (d < N) {
         if(N % d == 0) {
             printf("%d")
