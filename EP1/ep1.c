@@ -21,6 +21,14 @@
 
 
 
+// --------------- FLUXOGRAMA --------------- //
+    // Fluxograma que utilizei para organizar minhas ideias e estruturar o código realizado:
+    // https://canva.link/9o65xe10ra0vepe
+    // 100% do código é de minha autoria sem cópia, seja de IA, seja outros indivíduos.
+    // Agradeço a correção e análise do meu código, espero que seja satisfatório meu esforço!
+
+
+
 // --------------- BIBLIOTECAS --------------- //
 
     #include <stdio.h>
@@ -49,10 +57,10 @@
     // Variáveis armazenando primeiro e segundo melhores:
         int best_pilot = 21;
         int s_best_pilot = 21;
-        int best_attempt = 9999999;
-        int s_best_attempt = 9999999;
-        int best_time = 9999999;
-        int s_best_time = 9999999;
+        int best_attempt = 99999999;
+        int s_best_attempt = 99999999;
+        int best_time = 99999999;
+        int s_best_time = 99999999;
     
     // Variáveis de tempo:
         int best_time_min;
@@ -172,7 +180,7 @@
         if (best_time_min != 1) {
             printf(", com tempo de %d minutos, ", best_time_min);
         }
-        else if (best_time == 1) {
+        else if (best_time_min == 1) {
             printf(", com tempo de 1 minuto, ");
         }
 
@@ -193,14 +201,13 @@
         printf(" (tentativa %d).\n", best_attempt);
     }
 
-    
     int print_second_place(){
         printf("Segundo lugar: Piloto %d", s_best_pilot);
 
         if (s_best_time_min != 1) {
             printf(", com tempo de %d minutos, ", s_best_time_min);
         }
-        else if (s_best_time == 1) {
+        else if (s_best_time_min == 1) {
             printf(", com tempo de 1 minuto, ");
         }
 
