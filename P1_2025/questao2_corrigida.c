@@ -18,6 +18,7 @@ int main() {
                     break;
                 }
             }
+        
             if (is_prime == true) {
                 prime = i;
             }
