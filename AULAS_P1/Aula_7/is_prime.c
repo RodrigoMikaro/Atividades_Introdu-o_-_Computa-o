@@ -26,7 +26,7 @@ int main(int argc, char *argv[]) {
     }
     while (d < N) {
         if(N % d == 0) {
-            printf("%d")
+            printf("%d", d);
         }
     }
 

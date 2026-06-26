@@ -1,0 +1,27 @@
+-----------
+ PONTEIROS
+-----------
+
+    &: endereço de
+    *: valor do endereço armazenado neste ponteiro
+
+    Para imprimir ponteiros:
+        printf("valor de x: %d; endereço de x: %p", x, &x);
+
+
+------------
+ CARACTERES
+------------
+
+    * Tabela ASCII
+    * Imprimir caractere: %c
+    * Imprimir inteiro equivalente àquele caractere, em ASCII: %d
+
+
+---------
+ LAÇO DO
+---------
+
+    * do {
+
+    } while (condição);

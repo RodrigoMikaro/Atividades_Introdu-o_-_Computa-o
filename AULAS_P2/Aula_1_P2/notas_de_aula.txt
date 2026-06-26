@@ -1,0 +1,19 @@
+* Utilizar double sempre em vez de float
+* Para transformar argumento de linha de comando em double:
+    atof(argv[n]);
+
+* Para usar float em strings:
+    - %lf
+    - %lg   (gera double/float em notação científica)
+
+* gcc add_doubles.c         -o add_doubles        -std=c99        -Wall  -pedantic -02
+    (nome do arquivo)      (nome do executável)   (versão C99)    (descreve os erros)
+
+* Constantes em double:
+    - DBL_MAX
+    - DBL_MIN
+
+* %.xlg 
+    - x é o número de casas depois da vírgula
+
+* Algoritmo de Monte Carlo para calcular áreas

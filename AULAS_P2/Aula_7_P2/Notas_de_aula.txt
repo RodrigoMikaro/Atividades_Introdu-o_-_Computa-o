@@ -1,0 +1,11 @@
+---------------
+ NOTAS DE AULA
+---------------
+
+    ---------------------------------
+     Funções Recursivas de Ordenação
+    ---------------------------------
+        * Inserção
+        * Intercalação (mergesort)
+
+    

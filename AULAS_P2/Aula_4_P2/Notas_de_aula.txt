@@ -1,0 +1,12 @@
+------------------
+ ESPAÇOS EM TEXTO
+------------------
+    * Temos 3 tipos a considerar nos programas:
+        1. ' '
+        2. '\n'
+        3. '\t'
+
+--------
+ ARRAYS
+--------
+    
