@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-void desalocar_matriz(int **M, int m, int n);
+void desalocar_matriz (int **M, int m, int n);
 
-int main(int argc, char* argv[]) {
+int main (int argc, char* argv[]) {
     int m = atoi(argv[1]);
     int n = atoi(argv[2]);
 
@@ -24,10 +24,10 @@ int main(int argc, char* argv[]) {
     return 0;
 }
 
-void desalocar_matriz(int **M, int m, int n) {
-
+void desalocar_matriz (int **M, int m, int n) {
     for (int i = 0; i < m; i++) {
         free (M[i]);
     }
     free (M);
 }
+
